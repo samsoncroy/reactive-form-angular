@@ -1,0 +1,94 @@
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.hobbies-section {
+    margin-top: 20px;
+}
+
+.hobby-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.remove-hobby-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.remove-hobby-button:hover {
+    background-color: #c82333;
+}
+
+.add-hobby-button {
+    background-color: #0011ffb4;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.add-hobby-button:hover {
+    background-color: #0011ff;
+}
+
+.submit-button {
+    background-color: #0011ffb4;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.submit-button:hover {
+    background-color: #0011ff;
+}
+
+.gender-section {
+    display: flex;
+    gap: 70px;
+}
+
+.gender-radio {
+    margin-top: 10px;
+}
+
+.gender-div label{
+    margin-top: 30px;
+    display: flex;
+    align-items: start;
+}
+.gender-div{
+    display: flex;
+    gap:2px;
+}
